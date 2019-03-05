@@ -1,4 +1,4 @@
-FROM bioconductor/bioconductor_full
+FROM bioconductor/bioconductor_full:devel
 
 ADD ./vjcinst.sh /tmp/
 RUN chmod 755 /tmp/vjcinst.sh
